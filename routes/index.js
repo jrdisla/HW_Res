@@ -78,7 +78,7 @@ router.get('/getSub',function (req,res) {
       uniqueSubm = Array.from(new Set(Main2));
       //uniqueLink = Array.from(new Set(link));
       var menu = new Menu(item,uniqueSubm,actions);
-      //console.log("Actions",actions);
+      console.log("Actions",actions);
       Menus.push(menu);
       console.log('Sub menus: '+myFilter+" ",uniqueSubm);
 

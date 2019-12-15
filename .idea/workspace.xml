@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94875d85-bedc-4969-b617-5a8393776b10" name="Default Changelist" comment="" />
+    <list default="true" id="94875d85-bedc-4969-b617-5a8393776b10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index2.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +21,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\jdisl\WebstormProjects\untitled\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1UxKS3qJoWdPpjkU8zTumP8otrL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -61,18 +73,30 @@
       <workItem from="1576292811491" duration="1666000" />
       <workItem from="1576331825035" duration="8930000" />
       <workItem from="1576362032530" duration="14234000" />
-      <workItem from="1576438295752" duration="4674000" />
+      <workItem from="1576438295752" duration="6987000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1576443319319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576443319319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576443223821">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576443300681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576443223821" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576443300681" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576443008723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -81,10 +105,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576425452995" />
-    <state x="339" y="164" key="run.anything.popup" timestamp="1576330370545">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576443385648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576330370545" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576443385648" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1576444874659">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576444874659" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
