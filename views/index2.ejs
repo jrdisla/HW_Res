@@ -25,23 +25,13 @@
             <%for (let j=0;j<menu[i].sub.length;j++){%>
             <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" ><%=menu[i].sub[j]%></a>
                 <ul class="dropdown-menu">
-<!--     Start actio         -->
               <%for (let x=0;x<menu[i].action.length;x++){%>
-
                 <%if(menu[i].action[x].subm===menu[i].sub[j]){%>
-
                     <%if(menu[i].action[x].action !== undefined){%>
-
                     <li><a class="dropdown-item" href="<%=menu[i].action[x].link%>"><%=menu[i].action[x].action%></a></li>
-
                     <%}%>
-
-
                     <%}%>
-
-              <%}%>
-
-<!--              -->
+                <%}%>
                 </ul>
             </li>
               <%}%>

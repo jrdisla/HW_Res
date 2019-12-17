@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94875d85-bedc-4969-b617-5a8393776b10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Class/Subm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index4.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index2.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="nodejs_interpreter_path" value="Download Node.js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -46,6 +49,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jdisl\WebstormProjects\untitled\views" />
     </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/index.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -72,7 +85,8 @@
       <workItem from="1576292811491" duration="1666000" />
       <workItem from="1576331825035" duration="8930000" />
       <workItem from="1576362032530" duration="14234000" />
-      <workItem from="1576438295752" duration="8937000" />
+      <workItem from="1576438295752" duration="10458000" />
+      <workItem from="1576535029708" duration="21500000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1576443319319</created>
@@ -88,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576446263039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed error with sub-menu actions&#10;missing: need to handle sub-menu with no action">
+      <created>1576466820439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576466820439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,13 +118,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="error showing actions in sub-menus" />
-    <option name="LAST_COMMIT_MESSAGE" value="error showing actions in sub-menus" />
+    <MESSAGE value="fixed error with sub-menu actions&#10;missing: need to handle sub-menu with no action" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed error with sub-menu actions&#10;missing: need to handle sub-menu with no action" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576446261062">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576466818508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576446261062" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576466818508" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576443008723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -112,32 +134,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576425452995" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576446266224">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576466827327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576446266224" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576466827327" />
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576537465534">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1576537465534" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1576444874659">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576444874659" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576538856579">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576538856579" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/index.js</url>
-          <line>48</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/index.js</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/index.js</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/index.js</url>
+          <line>49</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
