@@ -27,7 +27,7 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 app.listen(5000, function () {
-  console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 5000!');
 });
 // error handler
 app.use(function(err, req, res, next) {
