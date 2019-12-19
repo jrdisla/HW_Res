@@ -1,8 +1,8 @@
 class Menu {
-    constructor(menu, sub = [],action = []){
+    constructor(menu, sub = []){
         this.menu = menu;
         this.sub = sub;
-        this.action = action;
+       // this.action = action;
     }
 }
 module.exports =Menu ;
