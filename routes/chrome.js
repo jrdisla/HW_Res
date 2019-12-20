@@ -84,16 +84,16 @@ router.get('/get',function (req,res) {
          let html ="";
       for(let i = 0; i < Menus.length; i++){
         (function(i){
-          html +=`<li class=\"nav-item dropdown\">
-<a class=\"nav-link dropdown-toggle\" href=\"http://example.com\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+          html +=`<li>
+<a  href=\"http://example.com\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
                     ${Menus[i].menu}
                 </a>
-<ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">`;
+<ul>`;
 
           for (let j = 0;j<Menus[i].sub.length;j++)
           {
-            html += `<li class=\"dropdown-submenu\"><a class=\"dropdown-item dropdown-toggle\" >${Menus[i].sub[j]}</a>
-<ul class=\"dropdown-menu\">`;
+            html += `<li><a>${Menus[i].sub[j]}</a>
+<ul>`;
             for (let x = 0;x<sums.length;x++)
             {
               if(sums[x].subm === Menus[i].sub[j])
@@ -101,7 +101,7 @@ router.get('/get',function (req,res) {
                 for(let z = 0;z<sums[x].action.length;z++)
                 {
                   if(sums[x].action[z].main ===Menus[i].menu){
-                    html+=`<li><a target=\"_blank\" class=\"dropdown-item\" href=\"${sums[x].action[z].link}\">${sums[x].action[z].action}</a></li>`;
+                    html+=`<li><a target=\"_blank\" href=\"${sums[x].action[z].link}\">${sums[x].action[z].action}</a></li>`;
                   }
                 }
               }

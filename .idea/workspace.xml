@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94875d85-bedc-4969-b617-5a8393776b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromeAPP/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/chrome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/chrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/chrome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index2.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index3.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index4.ejs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +51,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jdisl\WebstormProjects\untitled\chromeAPP\scripts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jdisl\WebstormProjects\untitled\views" />
       <recent name="C:\Users\juliodisla\WebstormProjects\HW_Res\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jdisl\WebstormProjects\untitled\chromeAPP\scripts" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
@@ -116,6 +109,7 @@
       <workItem from="1576438295752" duration="10458000" />
       <workItem from="1576535029708" duration="21500000" />
       <workItem from="1576715137683" duration="13597000" />
+      <workItem from="1576819184109" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1576443319319</created>
@@ -138,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576466820439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DONE">
+      <created>1576819411846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576819411846</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +149,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="error showing actions in sub-menus" />
     <MESSAGE value="fixed error with sub-menu actions&#10;missing: need to handle sub-menu with no action" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed error with sub-menu actions&#10;missing: need to handle sub-menu with no action" />
+    <MESSAGE value="DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576722226168">
@@ -159,10 +161,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1576721519483" />
-    <state x="1674" y="0" key="CommitChangelistDialog2" timestamp="1576819368824">
+    <state x="1674" y="0" key="CommitChangelistDialog2" timestamp="1576819408472">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576819368824" />
+    <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576819408472" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576466818508" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576443008723">
       <screen x="0" y="0" width="1366" height="728" />
@@ -236,9 +238,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576425452995" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576466827327">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1641" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576819420436">
+      <screen x="1366" y="0" width="1366" height="728" />
     </state>
+    <state x="1641" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576819420436" />
     <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576466827327" />
     <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576537465534">
       <screen x="0" y="0" width="1366" height="728" />
