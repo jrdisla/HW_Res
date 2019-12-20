@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="94875d85-bedc-4969-b617-5a8393776b10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/chrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/chrome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +70,9 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.bin\www" />
-      <item itemvalue="Node.js.www" />
-      <item itemvalue="Node.js.users" />
       <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.users" />
+      <item itemvalue="Node.js.www" />
     </list>
     <recent_temporary>
       <list>
@@ -109,7 +108,7 @@
       <workItem from="1576438295752" duration="10458000" />
       <workItem from="1576535029708" duration="21500000" />
       <workItem from="1576715137683" duration="13597000" />
-      <workItem from="1576819184109" duration="1156000" />
+      <workItem from="1576819184109" duration="1446000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1576443319319</created>
@@ -139,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576819411846</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DONE">
+      <created>1576820424469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576820424469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,10 +167,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1576721519483" />
-    <state x="1674" y="0" key="CommitChangelistDialog2" timestamp="1576819408472">
+    <state x="1674" y="0" key="CommitChangelistDialog2" timestamp="1576820421234">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576819408472" />
+    <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576820421234" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576466818508" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576443008723">
       <screen x="0" y="0" width="1366" height="728" />
@@ -238,10 +244,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576425452995" />
-    <state x="1641" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576819420436">
+    <state x="1641" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576820425922">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1641" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576819420436" />
+    <state x="1641" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576820425922" />
     <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576466827327" />
     <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576537465534">
       <screen x="0" y="0" width="1366" height="728" />
