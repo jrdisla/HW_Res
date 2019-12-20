@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94875d85-bedc-4969-b617-5a8393776b10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromeAPP/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class/Sub.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/chrome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index2.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index3.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index4.ejs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,38 +47,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes/users.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="Download Node.js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\juliodisla\WebstormProjects\HW_Res\views" />
-      <recent name="C:\Users\jdisl\WebstormProjects\untitled\views" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jdisl\WebstormProjects\untitled\chromeAPP\scripts" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jdisl\WebstormProjects\untitled\views" />
+      <recent name="C:\Users\juliodisla\WebstormProjects\HW_Res\views" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" path-to-node="node" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/routes">
       <method v="2" />
     </configuration>
-    <configuration name="users" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="routes/users.js" working-dir="$PROJECT_DIR$">
+    <configuration name="users" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="$PROJECT_DIR$/routes/chrome.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="www" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
@@ -88,6 +87,18 @@
         <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -148,9 +159,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1576721519483" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576466818508">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1674" y="0" key="CommitChangelistDialog2" timestamp="1576819368824">
+      <screen x="1366" y="0" width="1366" height="728" />
     </state>
+    <state x="1674" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576819368824" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576466818508" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576443008723">
       <screen x="0" y="0" width="1366" height="728" />
@@ -240,18 +252,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576444874659" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576722633576">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576804899061">
+      <screen x="1366" y="0" width="1366" height="728" />
     </state>
+    <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1576804899061" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576722633576" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/users.js</url>
+          <url>file://$PROJECT_DIR$/routes/chrome.js</url>
           <line>5</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>

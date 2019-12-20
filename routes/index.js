@@ -15,9 +15,8 @@ router.get('/',function (req,res) {
     }).firstPage(function(err, records) {
         if (err) { console.error(err); return; }
         records.forEach(function(record) {
-            var value =  record.get('Workflow Phase');
+            let value =  record.get('Workflow Phase');
             Main.push(value);
-            console.log('Retrieved',value);
         });
         uniqueItems = Array.from(new Set(Main));
         let Menus = [];
@@ -79,9 +78,7 @@ router.get('/',function (req,res) {
                             if(j===actions.length-1)
                             {
                                 let sc = new Sub_menu(Menus[i].menu,Menus[i].sub[x],acts);
-                                //  if(!sums.includes(unique[i][j])) {
                                 sums.push(sc);
-                                //}
                             }
                         }
                     }
@@ -90,14 +87,13 @@ router.get('/',function (req,res) {
 
                 }(i));
             }
-            console.log(sums);
-            res.render('index4', {
-                title: 'Express',
-                sub: uniqueSubm,
+
+            res.render('index', {
+                title: 'Resonance Menu',
                 menu : Menus,
-                sums: sums
+                sums: sums,
             });
         })
     });
-    });
+});
 module.exports = router;

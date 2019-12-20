@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Menu Resonance ",
+  "description": "HomeWork",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Resonance"
+  }, "background":{
+  "scripts":["scripts/ajax.js"]
+},
+  "permissions": ["http://localhost/"],
+  "background": { "scripts": ["scripts/jquery-3.4.1.min.js", "scripts/ajax.js"] }
+}
